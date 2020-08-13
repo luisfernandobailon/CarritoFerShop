@@ -1,0 +1,63 @@
+<div class="row" id="product-page" *ngIf="loadProduct">
+    <div class="col-12">
+
+        <!-- Nombre del producto -->
+        <div class="row">
+            <div class="col-12 product">
+                <img [src]="product.img" class="img-large">
+                <span class="d-block">{{product.name}}</span>
+            </div>
+        </div>
+        <hr />
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <ng-container>
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <span class="d-block block-price">{{'Precio: $' + product.price}}</span>
+                        </div>
+                    </div>
+                </ng-container>
+
+                <!-- Boton para Añadir -->
+                <div class="row no-gutters mt-4 mb-4">
+                    <button class="btn btn-block rounded-0 btn-primary mt-0 col-12" (click)="addProductOrder()">
+                        AÑADIR PRODUCTO AL CARRITO
+                    </button>
+                </div>
+
+                <div class="row mt-4 mb-4">
+                    <div class="col-12">
+                        <button class="btn btn-block btn-primary rounded-0 mt-0" [routerLink]="['/list-categories']">
+                            VOLVER
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de confirmacion -->
+<ng-template #modal_add_product let-modal>
+
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title"> Exito</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="modal.dismiss()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Se añadio el producto exitosamente
+        </div>
+    </div>
+</ng-template>
+
+<!-- Spinner -->
+<div class="h-100" *ngIf="!loadProduct">
+    <div class="spinner">
+        <img src="assets/img/spinner.gif" alt="">
+    </div>
+</div>

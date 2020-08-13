@@ -1,0 +1,92 @@
+{
+    "categories": [{
+            "name": "TECNOLOGIA",
+            "img": "https://lumen.com.mx/Content/Images/productPics/273395.jpg",
+            "products": [{
+                    "name": "Huawei p30 lite",
+                    "img": "https://resources.claroshop.com/medios-plazavip/s2/10944/1348541/5e6bed5ebfac9-41igoztp4yl-1600x1600.jpg",
+                    "price": 6000
+                },
+                {
+                    "name": "Laptop HP",
+                    "img": "https://lumen.com.mx/Content/Images/productPics/273395.jpg",
+                    "price": 13000
+                },
+                {
+                    "name": "Tablet Huawei",
+                    "img": "https://www.radioshack.com.mx/medias/86480.jpg-1200ftw?context=cmFkaW9zaGFja3xyb290fDM3NDUxNHxpbWFnZS9qcGVnfGhiOS9oZTUvODg4ODQxNjA3NTgwNi5qcGd8ZGI4NTZlZGE1MTUxMjA4NDY2MzExN2RlOGM0NmI3NDdmMGRlODkyYzU3OWQ3MDk4NWZhOTZkYzE0NDFkYmE4Yg",
+                    "price": 3500
+                },
+                {
+                    "name": "Xiaomi mi band 5",
+                    "img": "https://resources.claroshop.com/medios-plazavip/s2/10243/1562446/5f072d283a654-3f8dc92b-2e3e-4cd5-a642-f43f66448f34-1600x1600.jpg",
+                    "price": 800
+                }
+            ]
+        },
+        {
+            "name": "Hogar y electrodomesticos",
+            "img": "https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/3090336.jpg",
+            "products": [{
+                "name": "Lavadora Mabe",
+                "img": "https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/3090336.jpg",
+                "price": 11899.0
+            }]
+        },
+        {
+            "name": "Moda",
+            "img": "https://http2.mlstatic.com/camisa-fox-traildust-20-negro-casual-all-road-bicicleta-D_NQ_NP_995326-MLM31837802280_082019-F.webp",
+            "products": [{
+                    "name": "Camisa manga larga",
+                    "img": "https://http2.mlstatic.com/camisa-fox-traildust-20-negro-casual-all-road-bicicleta-D_NQ_NP_995326-MLM31837802280_082019-F.webp",
+                    "price": 999.0
+                },
+                {
+                    "name": "Pantalon de mezclilla",
+                    "img": "https://ljeans.mx/wp-content/uploads/2014/02/Levi%C2%B4s-511-Clean-Dark-v1.jpg",
+                    "price": 999.0
+                }
+            ]
+        },
+        {
+            "name": "Belleza y cuidado persoal",
+            "img": "https://http2.mlstatic.com/acqua-di-gio-homme-de-giorgio-armani-eau-de-toilette-200-ml-D_NQ_NP_828985-MLM32872506834_112019-O.webp",
+            "products": [{
+                    "name": "Perfume Aqua Di Gio",
+                    "img": "https://http2.mlstatic.com/acqua-di-gio-homme-de-giorgio-armani-eau-de-toilette-200-ml-D_NQ_NP_828985-MLM32872506834_112019-O.webp",
+                    "price": 1339.0
+                },
+                {
+                    "name": "Desodorante rexona",
+                    "img": "https://http2.mlstatic.com/desodorante-rexona-ph-clinic-artic-barra-para-caballero-45-g-D_NQ_NP_999510-MLM41799595791_052020-O.webp",
+                    "price": 40.0
+                }
+            ]
+        },
+        {
+            "name": "Deportes",
+            "img": "https://http2.mlstatic.com/balon-de-futbol-nike-5-modelo-sc3166-803-D_NQ_NP_694874-MLM31221733189_062019-O.webp",
+            "products": [{
+                    "name": "Balon nike",
+                    "img": "https://http2.mlstatic.com/balon-de-futbol-nike-5-modelo-sc3166-803-D_NQ_NP_694874-MLM31221733189_062019-O.webp",
+                    "price": 280.0
+                },
+                {
+                    "name": "Jersey cruz azul",
+                    "img": "https://http2.mlstatic.com/jersey-cruz-azul-local-joma-la-maquina-original-2021-D_NQ_NP_649680-MLM42814347534_072020-F.webp",
+                    "price": 999.0
+                },
+                {
+                    "name": "Jersey chivas",
+                    "img": "https://http2.mlstatic.com/jersey-original-chivas-20162017-camisa-local-playera-puma-D_NQ_NP_918962-MLM42501857831_072020-F.webp",
+                    "price": 999.0
+                },
+                {
+                    "name": "Jersey Aguilas del america",
+                    "img": "https://http2.mlstatic.com/jersey-aguilas-del-america-2017-2018-local-nike-original-D_NQ_NP_800031-MLM42727066895_072020-O.webp",
+                    "price": 999.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+<div class="row" id="order">
+    <div class="col-12 products">
+
+        <!-- Muestro los productos del pedido -->
+        <div class="row" *ngFor="let product of orderService.order.productsOrder; let last=last">
+
+            <!-- Imagen del pedido -->
+            <div class="col-lg-3 col-md-12">
+                <img [src]="product.img" class="img-small">
+            </div>
+
+            <!-- Nombre del producto -->
+            <div class="col-lg-3 col-md-12 tex-center">
+                <span>{{product.name}}</span>
+            </div>
+
+            <!-- Precio del producto -->
+            <div class="col-lg-3 col-md-12 tex-center">
+                <span>{{ '$'+((product.totalPrice() * product.quantity) | number: '1.2-2') }}</span>
+            </div>
+
+            <!-- Botones para movernos entre los aumentar un producto, quitar y remover el producto del carrito -->
+            <div class="col-lg-3 col-md-12 tex-center">
+                <i class="fa fa-minus-circle ml-3 mr-3" (click)="orderService.order.oneLessProduct(product)"></i>
+                <span>{{product.quantity}}</span>
+                <i class="fa fa-plus-circle ml-3 mr-3" (click)="orderService.order.oneMoreProduct(product)"></i>
+
+                <i class="fa fa-trash" (click)="orderService.order.removeProduct(product)"></i>
+
+            </div>
+
+            <hr class="w-100" *ngIf="!last">
+        </div>
+
+
+    </div>
+</div>
+
+<!-- Total del pedido -->
+<div class="row" id="total">
+    <div class="col-12 text-center price-order">
+        <span class="d-block">{{'Total Pedido: $' + (orderService.order.totalOrder() | number: '1.2-2') }}</span>
+    </div>
+</div>
