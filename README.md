@@ -7,7 +7,7 @@ Es necesario tener instalado [NodeJS ](https://nodejs.org/es/download/) version 
 
 ## Clonar la aplicacion 
 
-Ejecute el comanto `git clone` desde la terminal en la ruta donde desea clonar el proyecto
+Ejecute el comanto `git clone https://github.com/luisfernandobailon/CarritoFerShop.git` desde la terminal en la ruta donde desea clonar el proyecto
 
 En caso de tener el proyecto en un archivo .zip. Descomprimirlo la ruta que desee.
 
